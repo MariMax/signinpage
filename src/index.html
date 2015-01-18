@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign in form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css({.tmp,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp,src}) styles/app.css -->
+    <!-- inject:userCss -->
+    <link rel="stylesheet" href="assets/css/compilledCss/css/style.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="login-page">
+        <div class="content-wrapper">
+            <div class="login-form">
+                <div class="header">
+                    <div class="banner"><img src="http://placehold.it/265x80&text=Logo%20or%20banner">
+                    </div>
+                </div>
+                <div class="info">
+                    <p>Sign in form</p>
+                </div>
+                <div class="user-name">
+                    <p>Username</p>
+                </div>
+                <div class="user-name-input"><i class="fa fa-envelope"></i>
+                    <input type="email">
+                </div>
+                <div class="password">
+                    <p>Password</p>
+                </div>
+                <div class="password-input"><i class="fa fa-lock"></i>
+                    <input type="password">
+                </div>
+                <div class="remember-me">
+                    <div>
+                        <div class="switcher-bottom" ng-click="model.save = !model.save">
+                            <div class="switcher right"></div>
+                        </div>
+                    </div>
+                    <p>Remember me</p>
+                </div>
+                <div class="sign-in"><a href="">Sign in</a><a href="">Forgot username or password</a>
+                </div>
+                <div class="footer"></div>
+            </div>
+            <div class="additional-info">
+                <div class="logo"><img src="http://placehold.it/265x80&text=Logo%20picture" alt="Logo">
+                </div>
+                <div class="header">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quod?
+                    </p>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque illo rem et laboriosam distinctio doloribus veritatis repellat, quaerat officiis, amet praesentium obcaecati, quia modi numquam eum consequuntur tempore libero voluptates cupiditate perspiciatis harum accusamus minus? Numquam repellat molestiae impedit, officia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js({.tmp,src}) scripts/app.js -->
+    <!-- inject:userJS -->
+    <script src="scripts/script.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+</body>
+
+</html>
